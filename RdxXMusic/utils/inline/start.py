@@ -1,7 +1,7 @@
 from pyrogram.types import InlineKeyboardButton
 
 import config
-from RdxXMusic import app
+from GAURAVXMusic import app
 
 
 def start_panel(_):
@@ -10,12 +10,12 @@ def start_panel(_):
             InlineKeyboardButton(
                 text=_["S_B_1"], url=f"https://t.me/{app.username}?startgroup=true"
             ),
-            InlineKeyboardButton(text=_["S_B_2"], url="https://t.me/+PtOLQT04ocMzOTJl"),
+            InlineKeyboardButton(text=_["S_B_2"], url="https://t.me/THE_LOV1NG_WORLD "),
         ],
         [
             InlineKeyboardButton(
                 text=_["S_B_13"],
-                url="https://t.me/+RObRa7kXPIJmMjU1"
+                url="https://t.me/A_Z_CHATs"
             ),
         ],
     ]
@@ -38,7 +38,7 @@ def private_panel(_):
                 url="https://t.me/+RObRa7kXPIJmMjU1"),],[
             InlineKeyboardButton(text=_["S_B_1"], url=f"https://t.me/{app.username}?startgroup=true"),],
         [
-            InlineKeyboardButton(text=_["S_B_5"], user_id="1777270311"),
+            InlineKeyboardButton(text=_["S_B_5"], user_id="6229098016 "),
             InlineKeyboardButton(text=_["S_B_7"], url="https://t.me/+m4oVCt2zFhYyMTdl"),
         ],
         [
