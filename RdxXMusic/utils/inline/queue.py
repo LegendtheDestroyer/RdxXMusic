@@ -72,17 +72,16 @@ def aq_markup(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(text="❀", url="https://t.me/+m4oVCt2zFhYyMTdl"),
-            InlineKeyboardButton(text="❀", url="https://t.me/+okCO84m2hZxjYTE9"),
-            InlineKeyboardButton(text="❀", user_id="1777270311"),
-            InlineKeyboardButton(text="❀", url="https://www.youtube.com/channel/UCoOmopJ8YVYz9Lm8iHhNYMw"),
+            InlineKeyboardButton(text="❀", url="https://t.me/royal_bot_and_dpz"),
+            InlineKeyboardButton(text="❀", url="https://t.me/ll_about_LEGEND_ll"),
+            InlineKeyboardButton(text="❀", user_id="6229098016")   
         ],
         [
             InlineKeyboardButton(
-                text="˹sᴜᴘᴘ๏ʀᴛ˼", url="https://t.me/+RObRa7kXPIJmMjU1"
+                text="˹sᴜᴘᴘ๏ʀᴛ˼", url="https://t.me/THE_LOV1NG_WORLD"
             ),
             InlineKeyboardButton(
-                text="˹sᴜᴘᴘ๏ʀᴛ˼", url="https://t.me/+PtOLQT04ocMzOTJl"
+                text="˹sᴜᴘᴘ๏ʀᴛ˼", url="https://t.me/A_Z_CHATs"
             ),
         ],
     ]
