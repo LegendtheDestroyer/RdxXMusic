@@ -35,11 +35,11 @@ def private_panel(_):
                 url="https://t.me/+PtOLQT04ocMzOTJl"),
             InlineKeyboardButton(
                 text=_["S_B_9"], 
-                url="https://t.me/+RObRa7kXPIJmMjU1"),],[
+                url="https://t.me/A_Z_CHATs "),],[
             InlineKeyboardButton(text=_["S_B_1"], url=f"https://t.me/{app.username}?startgroup=true"),],
         [
             InlineKeyboardButton(text=_["S_B_5"], user_id="6229098016 "),
-            InlineKeyboardButton(text=_["S_B_7"], url="https://t.me/+m4oVCt2zFhYyMTdl"),
+            InlineKeyboardButton(text=_["S_B_7"], url="https://t.me/fell_alone_soul"),
         ],
         [
             InlineKeyboardButton(text=_["S_B_10"], url="https://t.me/+okCO84m2hZxjYTE9"),
