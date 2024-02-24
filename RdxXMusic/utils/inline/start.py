@@ -1,22 +1,16 @@
 from pyrogram.types import InlineKeyboardButton
 
 import config
-from GAURAVXMusic import app
+from RdxXMusic import app
 
 
 def start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_1"], url=f"https://t.me/{app.username}?startgroup=true"
+                text="ᴀᴅᴅ ᴍᴇ", url=f"https://t.me/{app.username}?startgroup=true"
             ),
-            InlineKeyboardButton(text=_["S_B_2"], url="https://t.me/THE_LOV1NG_WORLD "),
-        ],
-        [
-            InlineKeyboardButton(
-                text=_["S_B_13"],
-                url="https://t.me/A_Z_CHATs"
-            ),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_CHAT),
         ],
     ]
     return buttons
@@ -25,26 +19,19 @@ def start_panel(_):
 def private_panel(_):
     buttons = [
         [
-            
-            InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper"
-            ),
+            InlineKeyboardButton(
+                text=""ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
+                url=f"https://t.me/{app.username}?startgroup=true",
+            )
+        ],
+        [InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴍᴅs", callback_data="settings_back_helper")],
+        [
+            InlineKeyboardButton(text="ᴏᴡɴᴇʀ", user_id=config.OWNER_ID),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_CHAT),
         ],
         [
-            InlineKeyboardButton(
-                text=_["S_B_2"],
-                url="https://t.me/+PtOLQT04ocMzOTJl"),
-            InlineKeyboardButton(
-                text=_["S_B_9"], 
-                url="https://t.me/A_Z_CHATs "),],[
-            InlineKeyboardButton(text=_["S_B_1"], url=f"https://t.me/{app.username}?startgroup=true"),],
-        [
-            InlineKeyboardButton(text=_["S_B_5"], user_id="6229098016"),
-            InlineKeyboardButton(text=_["S_B_7"], url="https://t.me/fell_alone_soul"),
-        ],
-        [
-            InlineKeyboardButton(text=_["S_B_10"], url="https://t.me/+okCO84m2hZxjYTE9"),
-            InlineKeyboardButton(text=_["S_B_12"], url="https://www.youtube.com/channel/UCoOmopJ8YVYz9Lm8iHhNYMw"),
-            InlineKeyboardButton(text=_["S_B_11"], url="https://t.me/+pAWm7GPhFYliOGI1"),
+            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/RDX-RAj/RDXMUSIC"),
         ],
     ]
     return buttons
