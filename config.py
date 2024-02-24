@@ -14,7 +14,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME", "ll_RJ29RDX_ll")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "Alexa_3X_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME", "Alexa_1X_BOT")
 # Don't Add style font 
 BOT_NAME = getenv("BOT_NAME", "Alexa Music")
 #get Your Assistant User name
@@ -29,7 +29,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "10000"))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 1777270311))
+OWNER_ID = int(getenv("OWNER_ID", 6229098016))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,15 +39,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/RDX-RAj/RdxXMusic",
+    "https://github.com/Gaurav1865/RdxXMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+m4oVCt2zFhYyMTdl")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+RObRa7kXPIJmMjU1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/royal_bot_and_dpz")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/A_Z_CHATs")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
