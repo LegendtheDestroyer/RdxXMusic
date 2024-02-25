@@ -20,7 +20,7 @@ def private_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text=""ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
+                text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
