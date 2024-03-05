@@ -74,14 +74,14 @@ def aq_markup(_, chat_id):
         [
             InlineKeyboardButton(text="❀", url="https://t.me/royal_bot_and_dpz"),
             InlineKeyboardButton(text="❀", url="https://t.me/ll_about_LEGEND_ll"),
-            InlineKeyboardButton(text="❀", user_id="7054506397")   
+            InlineKeyboardButton(text="❀", user_id="6870727708")   
         ],
         [
             InlineKeyboardButton(
                 text="˹sᴜᴘᴘ๏ʀᴛ˼", url="https://t.me/THE_LOV1NG_WORLD"
             ),
             InlineKeyboardButton(
-                text="˹sᴜᴘᴘ๏ʀᴛ˼", url="https://t.me/A_Z_CHATs"
+                text="˹sᴜᴘᴘ๏ʀᴛ˼", url="https://t.me/THE_LOV1NG_WORLD"
             ),
         ],
     ]
