@@ -12,13 +12,13 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "ll_RJ29RDX_ll")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "l_L3G3ND_l")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "Alexa_1X_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME", "MESS_X_MUSIC_BOT")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "Alexa Music")
+BOT_NAME = getenv("BOT_NAME", "MESS MUSIC")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "RDX_ASS")
+ASSUSERNAME = getenv("ASSUSERNAME", "MESS_ASS")
 EVALOP = list(map(int, getenv("EVALOP", "1777270311").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://sanasomani786:TJgADfpkI1XVUkKt@cluster0.ruhyad9.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp")
@@ -29,7 +29,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "10000"))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6871066605))
+OWNER_ID = int(getenv("OWNER_ID", 6922009498))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,18 +39,18 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Gaurav1865/RdxXMusic",
+    "https://github.com/LegendtheDestroyer/RdxXMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_LEGEND_WORLD_ll")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+mEqMsG_cS5I0ZGFl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TitanBotStore")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Thakur_ki_Haweli")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -85,14 +85,18 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/0390f06f5c70e25892478.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/457b113d39f5d4c07affe.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/457b113d39f5d4c07affe.jpg"
+)"
+)"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/0390f06f5c70e25892478.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/457b113d39f5d4c07affe.jpg"
+)"
+STATS_IMG_URL = "https://telegra.ph/file/457b113d39f5d4c07affe.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/457b113d39f5d4c07affe.jpg"
+)"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
