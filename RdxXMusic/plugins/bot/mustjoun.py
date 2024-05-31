@@ -6,7 +6,7 @@ from RdxXMusic import app
 
 #--------------------------
 
-MUST_JOIN = "https://t.me/+RObRa7kXPIJmMjU1"
+MUST_JOIN = "https://t.me/TitanBotStore"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
